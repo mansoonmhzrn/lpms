@@ -1,5 +1,7 @@
 import Footer from '../components/Footer'
-import image from "../components/bg_2.jpg"
+import image from "../components/bg_1.jpg"
+import image1 from "../components/bg_2.jpg"
+import image2 from "../components/bg_3.jpg"
 import images from "../components/logo.png"
 import {Link} from "react-router-dom"
 export default function Main() {
@@ -26,10 +28,10 @@ export default function Main() {
           <img src={image} className="img-fluid" alt="no image"/>
           </div>
           <div className="carousel-item">
-          <img src={image} className="img-fluid" alt="no image"/>
+          <img src={image1} className="img-fluid" alt="no image"/>
           </div>
           <div className="carousel-item">
-          <img src={image} className="img-fluid" alt="no image"/>
+          <img src={image2} className="img-fluid" alt="no image"/>
           </div>
           <div className="carousel-caption d-none d-md-block " style={{zIndex:"10"}}>
           </div>
